@@ -5559,7 +5559,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .subtitle {
-    text-align: right;
+     text-align: right;
      display: inline-block;
      margin-bottom: 10px;
      font-family: Generalsans, sans-serif;
@@ -5568,7 +5568,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      line-height: 1;
      font-weight: 400;
      letter-spacing: 2px;
-     text-transform: uppercase;
+     /* text-transform: uppercase;  */
    }
    
    .subtitle.text-align-center {
@@ -8276,7 +8276,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .subtitle {
-       font-size: 0.875rem;
+      font-size: 0.875rem; */
      }
    
      .sticky-works-wrapper.home-one {
