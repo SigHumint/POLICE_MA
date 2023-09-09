@@ -8,6 +8,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
+
+   .myformat {
+    will-change: transform; transform: translate3d(0.0015vw, -150%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+   }   
    .w-layout-grid {
      display: -ms-grid;
      display: grid;
@@ -3223,16 +3227,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      display: block;
    }
    
-   .myshadow {
-    text-shadow: #FC0 1px 0 10px;
-   }
-
    .text-size-tiny {
      font-family: Generalsans, sans-serif;
      color: #9c9c9c;
      font-size: 0.875rem;
      font-weight: 400;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .text-weight-light {
@@ -3579,8 +3578,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      font-size: 1.25rem;
      line-height: 1.5;
      font-weight: 400;
-     text-shadow: #FC0 1px 0 10px;
-
    }
    
    .overflow-hidden {
@@ -3726,13 +3723,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      font-family: 'Secular One', sans-serif;
      font-size: 3.5rem;
      line-height: 1.4;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .text-size-large.scrolling {
      margin-right: 2.5rem;
      margin-left: 2.5rem;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .margin-horizontal {
@@ -3884,7 +3879,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      font-size: 1rem;
      line-height: 1.5;
      font-weight: 400;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .text-size-small.faq {
@@ -4154,7 +4148,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      color: #9c9c9c;
      font-size: 2.5rem;
      line-height: 1.6;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .text-size-medium.price {
@@ -5567,11 +5560,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .text-size-xlarge {
      font-size: 5.5rem;
      line-height: 1.2;
-     text-shadow: #FC0 1px 0 10px;
    }
    
    .subtitle {
-     text-align: right;
+    text-align: right;
      display: inline-block;
      margin-bottom: 10px;
      font-family: Generalsans, sans-serif;
@@ -5580,7 +5572,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      line-height: 1;
      font-weight: 400;
      letter-spacing: 2px;
-     /* text-transform: uppercase;  */
+     text-transform: uppercase;
    }
    
    .subtitle.text-align-center {
@@ -7243,14 +7235,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      .heading-large {
        font-size: 6rem;
      }
-
-     .myshadow {
-      text-shadow: #FC0 1px 0 10px;
-     }
    
      .text-size-regular {
        font-size: 1.25rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .header-content-left.home-four {
@@ -7712,7 +7699,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-xlarge {
        font-size: 4.5rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .sticky-works-wrapper.home-one {
@@ -8033,7 +8019,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-large {
        font-size: 2rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .text-size-large.text-style-nowrap {
@@ -8077,7 +8062,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-small {
        font-size: 0.925rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .padding-medium {
@@ -8119,7 +8103,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-medium {
        font-size: 2rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .heading-small {
@@ -8294,11 +8277,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-xlarge {
        font-size: 3.5rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .subtitle {
-      font-size: 0.875rem; */
+       font-size: 0.875rem;
      }
    
      .sticky-works-wrapper.home-one {
@@ -8625,17 +8607,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-medium {
        font-size: 1.8rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .text-size-medium.price {
        font-size: 1.25rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .heading-small {
        font-size: 1.6rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      ._404-title {
@@ -8789,7 +8768,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
      .text-size-xlarge {
        font-size: 2.25rem;
-       text-shadow: #FC0 1px 0 10px;
      }
    
      .subtitle {
