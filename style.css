@@ -7589,7 +7589,7 @@ blockquote {
   min-height: 100vh;
   padding: 20vh 10vh 10vh 10vw;
   background-image: url("https://assets.website-files.com/630aafd6714b93fb5ac2e35d/630aafd6714b935f23c2e37c_Image%20Placeholder.svg");
-  background-position: 20% 20%;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -9708,7 +9708,7 @@ blockquote {
   }
 
   .link-project-wrapper {
-    padding-top: 20vh;
+    padding-top: 30vh;
   }
 
   .overflow.project {
