@@ -15424,12 +15424,12 @@ tr {
 }
 
 .listed {
-  color: #9c9c9c;
+  color: white;
   font-size: 25px;
 }
 
 .listed:hover {
-  color: white;
+  color: cyan;
   font-weight: bold;
   text-decoration: underline;
 }
